@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.oop.DistanceAndDirectionCalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-16T05:20:22" hostname="Abhisheks-MBP" time="0.018">
+<testsuite name="org.oop.DistanceAndDirectionCalculatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-08-16T09:03:49" hostname="Abhisheks-MBP" time="0.029">
   <properties/>
-  <testcase name="originAndPointOnYAxisShouldBeHalfPiRadiansAway()" classname="org.oop.DistanceAndDirectionCalculatorTest" time="0.018"/>
+  <testcase name="twoPointsWithSameXAndYCoordinatesShouldHaveADistanceOfZero()" classname="org.oop.DistanceAndDirectionCalculatorTest" time="0.017"/>
+  <testcase name="distanceBetweenOriginAndPointsOnUnitCircleShouldBeOne()" classname="org.oop.DistanceAndDirectionCalculatorTest" time="0.003"/>
+  <testcase name="originAndPointOnPostiveXAxisShouldBeZeroRadiansAway()" classname="org.oop.DistanceAndDirectionCalculatorTest" time="0.001"/>
+  <testcase name="originAndPointOnNegativeXAxisShouldBePiRadiansAway()" classname="org.oop.DistanceAndDirectionCalculatorTest" time="0.001"/>
+  <testcase name="originAndPointOnYAxisShouldBeHalfPiRadiansAway()" classname="org.oop.DistanceAndDirectionCalculatorTest" time="0.001"/>
+  <testcase name="distanceBetweenTwoOppositePointsOnUnitCircleShouldBeTwo()" classname="org.oop.DistanceAndDirectionCalculatorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
